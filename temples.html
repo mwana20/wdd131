@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Mubbala Phillip - A comprehensive web development portfolio showcasing HTML, CSS, and JavaScript skills">
+    <meta name="author" content="Mubbala Phillip">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,700;1,500&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Temple Album</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css" media="screen and (min-width: 768px)">
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+        <nav id="main-nav">
+            <a href="#">Home</a>
+            <a href="#">Old</a>
+            <a href="#">New</a>
+            <a href="#">Large</a>
+            <a href="#">Small</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Home</h2>
+        </section>
+        <section class="gallery">
+            <figure>
+                <img src="images/temple.jpg" alt="San Diego California Temple">
+                <figcaption>San Diego California</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Salt Lake Temple">
+                <figcaption>Salt Lake</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Washington D.C. Temple">
+                <figcaption>Washington D.C.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Laie Hawaii Temple">
+                <figcaption>Laie Hawaii</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Portland Oregon Temple">
+                <figcaption>Portland Oregon</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Bountiful Utah Temple">
+                <figcaption>Bountiful Utah</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Nauvoo Illinois Temple">
+                <figcaption>Nauvoo Illinois</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Oakland California Temple">
+                <figcaption>Oakland California</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Manila Philippines Temple">
+                <figcaption>Manila Philippines</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Nairobi Kenya Temple">
+                <figcaption>Nairobi Kenya Temple</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> | Mubbala Phillip Kenneth | Kampala, Uganda</p>
+        <p id="lastModified" class="header-highlight"></p>
+        <script src="scripts/temples.js" defer></script>
+    </footer>
+</body>
+</html>
