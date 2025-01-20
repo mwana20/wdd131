@@ -24,13 +24,10 @@ body {
 header {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem 2rem;
     text-align: center;
     position: relative;
-    justify-content: space-around;
     align-items: center;
-    display: flex; 
-    align-items: center; 
+    display: flex;  
     justify-content: space-between; 
     padding: 1rem 2rem; 
 }
@@ -136,7 +133,6 @@ footer {
     text-align: center;
     padding: 2rem 1rem;
     margin-top: 2rem;
-    font-size: 0.875rem;
 }
 
 footer p {

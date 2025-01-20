@@ -1,4 +1,4 @@
-* Header adjustments for large screens */
+
 header {
     display: flex;
     align-items: center;
@@ -60,5 +60,5 @@ h2 {
 /* Footer */
 footer {
     padding: 1.5rem;
-    font-size: 0.875rem;
+    font-size: 1.7rem;
 }
