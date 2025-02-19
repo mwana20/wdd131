@@ -11,7 +11,8 @@
         "image": "/images/legendary/golden_age.jpg",
         "tags": ["classic", "drama", "hollywood"],
         "views": 285000,
-        "featured": true
+        "featured": true,
+        "price": 45000
       },
       {
         "id": "leg002",
@@ -23,7 +24,8 @@
         "image": "/images/legendary/midnight_mystery.jpg",
         "tags": ["noir", "mystery", "classic"],
         "views": 245000,
-        "featured": true
+        "featured": true,
+        "price": 42000
       },
       {
         "id": "leg003",
@@ -35,7 +37,8 @@
         "image": "/images/legendary/war_heroes.jpg",
         "tags": ["war", "drama", "history"],
         "views": 320000,
-        "featured": true
+        "featured": true,
+        "price": 48000
       },
       {
         "id": "leg004",
@@ -47,7 +50,8 @@
         "image": "/images/legendary/western_trail.jpg",
         "tags": ["western", "adventure", "classic"],
         "views": 265000,
-        "featured": true
+        "featured": true,
+        "price": 47000
       },
       {
         "id": "leg005",
@@ -59,7 +63,8 @@
         "image": "/images/legendary/love_eternal.jpg",
         "tags": ["romance", "drama", "classic"],
         "views": 298000,
-        "featured": true
+        "featured": true,
+        "price": 49000
       },
       {
         "id": "leg006",
@@ -71,7 +76,8 @@
         "image": "/images/legendary/city_lights.jpg",
         "tags": ["comedy", "drama", "classic"],
         "views": 275000,
-        "featured": true
+        "featured": true,
+        "price": 43000
       },
       {
         "id": "leg007",
@@ -83,7 +89,8 @@
         "image": "/images/legendary/emperor.jpg",
         "tags": ["historical", "drama", "epic"],
         "views": 310000,
-        "featured": true
+        "featured": true,
+        "price": 41000
       },
       {
         "id": "leg008",
@@ -95,7 +102,8 @@
         "image": "/images/legendary/space_odyssey.jpg",
         "tags": ["sci-fi", "adventure", "classic"],
         "views": 295000,
-        "featured": true
+        "featured": true,
+        "price": 46000
       },
       {
         "id": "leg009",
@@ -107,7 +115,8 @@
         "image": "/images/legendary/godfather.jpg",
         "tags": ["crime", "drama", "classic"],
         "views": 345000,
-        "featured": true
+        "featured": true,
+        "price": 44000
       },
       {
         "id": "leg010",
@@ -119,7 +128,8 @@
         "image": "/images/legendary/desert_wind.jpg",
         "tags": ["adventure", "drama", "epic"],
         "views": 268000,
-        "featured": false
+        "featured": false,
+        "price": 45000
       },
       {
         "id": "leg011",
@@ -131,7 +141,8 @@
         "image": "/images/legendary/musical_magic.jpg",
         "tags": ["musical", "romance", "classic"],
         "views": 255000,
-        "featured": true
+        "featured": true,
+        "price": 48000
       },
       {
         "id": "leg012",
@@ -143,7 +154,8 @@
         "image": "/images/legendary/psycho_thriller.jpg",
         "tags": ["thriller", "horror", "classic"],
         "views": 315000,
-        "featured": true
+        "featured": true,
+        "price": 42000
       },
       {
         "id": "leg013",
@@ -155,7 +167,8 @@
         "image": "/images/legendary/freedom_fight.jpg",
         "tags": ["drama", "war", "classic"],
         "views": 285000,
-        "featured": false
+        "featured": false,
+        "price": 47000
       },
       {
         "id": "leg014",
@@ -167,7 +180,8 @@
         "image": "/images/legendary/great_race.jpg",
         "tags": ["comedy", "adventure", "classic"],
         "views": 245000,
-        "featured": false
+        "featured": false,
+        "price": 49000
       },
       {
         "id": "leg015",
@@ -179,7 +193,8 @@
         "image": "/images/legendary/casablanca_nights.jpg",
         "tags": ["romance", "drama", "war"],
         "views": 325000,
-        "featured": true
+        "featured": true,
+        "price": 46000
       },
       {
         "id": "leg016",
@@ -191,7 +206,8 @@
         "image": "/images/legendary/seventh_seal.jpg",
         "tags": ["drama", "philosophy", "classic"],
         "views": 265000,
-        "featured": true
+        "featured": true,
+        "price": 43000
       },
       {
         "id": "leg017",
@@ -203,7 +219,8 @@
         "image": "/images/legendary/gone_tomorrow.jpg",
         "tags": ["romance", "war", "epic"],
         "views": 335000,
-        "featured": true
+        "featured": true,
+        "price": 45000
       },
       {
         "id": "leg018",
@@ -215,7 +232,8 @@
         "image": "/images/legendary/samurai_honor.jpg",
         "tags": ["action", "drama", "historical"],
         "views": 275000,
-        "featured": true
+        "featured": true,
+        "price": 48000
       },
       {
         "id": "leg019",
@@ -227,7 +245,8 @@
         "image": "/images/legendary/modern_times.jpg",
         "tags": ["comedy", "satire", "classic"],
         "views": 295000,
-        "featured": true
+        "featured": true,
+        "price": 42000
       },
       {
         "id": "leg020",
@@ -239,7 +258,8 @@
         "image": "/images/legendary/citizen_kane.jpg",
         "tags": ["drama", "mystery", "classic"],
         "views": 355000,
-        "featured": true
+        "featured": true,
+        "price": 41000
       }
     ]
   }

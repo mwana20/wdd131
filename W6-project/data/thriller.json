@@ -11,7 +11,8 @@
         "image": "images/thriller/silent_witness.jpg",
         "tags": ["thriller", "psychological", "mystery"],
         "views": 125000,
-        "featured": true
+        "featured": true,
+        "price": 10500
       },
       {
         "id": "thr002",
@@ -23,7 +24,8 @@
         "image": "images/thriller/last_room.jpg",
         "tags": ["thriller", "mystery", "escape"],
         "views": 98000,
-        "featured": false
+        "featured": false,
+        "price": 9800
       },
       {
         "id": "thr003",
@@ -35,7 +37,8 @@
         "image": "images/thriller/dark_web.jpg",
         "tags": ["thriller", "cyber", "conspiracy"],
         "views": 115000,
-        "featured": true
+        "featured": true,
+        "price": 10800
       },
       {
         "id": "thr004",
@@ -47,7 +50,8 @@
         "image": "images/thriller/mind_games.jpg",
         "tags": ["thriller", "psychological", "drama"],
         "views": 88000,
-        "featured": false
+        "featured": false,
+        "price": 10200
       },
       {
         "id": "thr005",
@@ -59,7 +63,8 @@
         "image": "images/thriller/empty_house.jpg",
         "tags": ["thriller", "mystery", "supernatural"],
         "views": 92000,
-        "featured": true
+        "featured": true,
+        "price": 11000
       },
       {
         "id": "thr006",
@@ -71,7 +76,8 @@
         "image": "images/thriller/cold_case.jpg",
         "tags": ["thriller", "crime", "mystery"],
         "views": 135000,
-        "featured": true
+        "featured": true,
+        "price": 9500
       },
       {
         "id": "thr007",
@@ -83,7 +89,8 @@
         "image": "images/thriller/underground_network.jpg",
         "tags": ["thriller", "crime", "journalism"],
         "views": 78000,
-        "featured": false
+        "featured": false,
+        "price": 10700
       },
       {
         "id": "thr008",
@@ -95,7 +102,8 @@
         "image": "images/thriller/memory_thief.jpg",
         "tags": ["thriller", "sci-fi", "psychological"],
         "views": 105000,
-        "featured": true
+        "featured": true,
+        "price": 9900
       },
       {
         "id": "thr009",
@@ -107,7 +115,8 @@
         "image": "images/thriller/vanishing_point.jpg",
         "tags": ["thriller", "mystery", "small-town"],
         "views": 82000,
-        "featured": false
+        "featured": false,
+        "price": 10400
       },
       {
         "id": "thr010",
@@ -119,7 +128,8 @@
         "image": "images/thriller/echo_chamber.jpg",
         "tags": ["thriller", "crime", "mystery"],
         "views": 95000,
-        "featured": true
+        "featured": true,
+        "price": 10900
       },
       {
         "id": "thr011",
@@ -131,7 +141,8 @@
         "image": "images/thriller/inside_man.jpg",
         "tags": ["thriller", "espionage", "betrayal"],
         "views": 88000,
-        "featured": false
+        "featured": false,
+        "price": 10500
       },
       {
         "id": "thr012",
@@ -143,7 +154,8 @@
         "image": "images/thriller/digital_shadows.jpg",
         "tags": ["thriller", "sci-fi", "ai"],
         "views": 102000,
-        "featured": true
+        "featured": true,
+        "price": 9800
       },
       {
         "id": "thr013",
@@ -155,7 +167,8 @@
         "image": "images/thriller/perfect_alibi.jpg",
         "tags": ["thriller", "crime", "detective"],
         "views": 93000,
-        "featured": false
+        "featured": false,
+        "price": 10800
       },
       {
         "id": "thr014",
@@ -167,7 +180,8 @@
         "image": "images/thriller/quiet_hours.jpg",
         "tags": ["thriller", "supernatural", "horror"],
         "views": 75000,
-        "featured": false
+        "featured": false,
+        "price": 10200
       },
       {
         "id": "thr015",
@@ -179,7 +193,8 @@
         "image": "images/thriller/sleepwalker.jpg",
         "tags": ["thriller", "psychological", "mystery"],
         "views": 118000,
-        "featured": true
+        "featured": true,
+        "price": 11000
       },
       {
         "id": "thr016",
@@ -191,7 +206,8 @@
         "image": "images/thriller/red_flag.jpg",
         "tags": ["thriller", "espionage", "action"],
         "views": 98000,
-        "featured": false
+        "featured": false,
+        "price": 9500
       },
       {
         "id": "thr017",
@@ -203,7 +219,8 @@
         "image": "images/thriller/collector.jpg",
         "tags": ["thriller", "crime", "art"],
         "views": 85000,
-        "featured": true
+        "featured": true,
+        "price": 10700
       },
       {
         "id": "thr018",
@@ -215,7 +232,8 @@
         "image": "images/thriller/deadline.jpg",
         "tags": ["thriller", "journalism", "corruption"],
         "views": 72000,
-        "featured": false
+        "featured": false,
+        "price": 9900
       },
       {
         "id": "thr019",
@@ -227,7 +245,8 @@
         "image": "images/thriller/experiment.jpg",
         "tags": ["thriller", "psychological", "horror"],
         "views": 108000,
-        "featured": true
+        "featured": true,
+        "price": 10400
       },
       {
         "id": "thr020",
@@ -239,7 +258,8 @@
         "image": "images/thriller/final_protocol.jpg",
         "tags": ["thriller", "cyber", "survival"],
         "views": 95000,
-        "featured": false
+        "featured": false,
+        "price": 10900
       }
     ]
 }

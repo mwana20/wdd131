@@ -11,7 +11,8 @@
         "image": "/images/faith/journey_home.jpg",
         "tags": ["faith", "family", "drama"],
         "views": 125000,
-        "featured": true
+        "featured": true,
+        "price": 8500
       },
       {
         "id": "fth002",
@@ -23,7 +24,8 @@
         "image": "/images/faith/miracle_workers.jpg",
         "tags": ["faith", "community", "inspiration"],
         "views": 98000,
-        "featured": false
+        "featured": false,
+        "price": 7800
       },
       {
         "id": "fth003",
@@ -35,7 +37,8 @@
         "image": "/images/faith/light_darkness.jpg",
         "tags": ["faith", "mission", "hope"],
         "views": 115000,
-        "featured": true
+        "featured": true,
+        "price": 8200
       },
       {
         "id": "fth004",
@@ -47,7 +50,8 @@
         "image": "/images/faith/pastors_heart.jpg",
         "tags": ["faith", "leadership", "community"],
         "views": 105000,
-        "featured": true
+        "featured": true,
+        "price": 8600
       },
       {
         "id": "fth005",
@@ -59,7 +63,8 @@
         "image": "/images/faith/amazing_grace.jpg",
         "tags": ["faith", "music", "inspiration"],
         "views": 135000,
-        "featured": true
+        "featured": true,
+        "price": 8900
       },
       {
         "id": "fth006",
@@ -71,7 +76,8 @@
         "image": "/images/faith/faiths_trial.jpg",
         "tags": ["faith", "legal", "drama"],
         "views": 92000,
-        "featured": false
+        "featured": false,
+        "price": 7500
       },
       {
         "id": "fth007",
@@ -83,7 +89,8 @@
         "image": "/images/faith/healing_garden.jpg",
         "tags": ["faith", "community", "nature"],
         "views": 88000,
-        "featured": false
+        "featured": false,
+        "price": 7400
       },
       {
         "id": "fth008",
@@ -95,7 +102,8 @@
         "image": "/images/faith/prayer_warriors.jpg",
         "tags": ["faith", "friendship", "inspiration"],
         "views": 112000,
-        "featured": true
+        "featured": true,
+        "price": 8100
       },
       {
         "id": "fth009",
@@ -107,7 +115,8 @@
         "image": "/images/faith/youth_pastor.jpg",
         "tags": ["faith", "youth", "music"],
         "views": 95000,
-        "featured": false
+        "featured": false,
+        "price": 7700
       },
       {
         "id": "fth010",
@@ -119,7 +128,8 @@
         "image": "/images/faith/sacred_hearts.jpg",
         "tags": ["faith", "medical", "hope"],
         "views": 108000,
-        "featured": true
+        "featured": true,
+        "price": 8300
       },
       {
         "id": "fth011",
@@ -131,7 +141,8 @@
         "image": "/images/faith/believer.jpg",
         "tags": ["faith", "journalism", "discovery"],
         "views": 128000,
-        "featured": true
+        "featured": true,
+        "price": 8800
       },
       {
         "id": "fth012",
@@ -143,7 +154,8 @@
         "image": "/images/faith/second_chances.jpg",
         "tags": ["faith", "redemption", "service"],
         "views": 85000,
-        "featured": false
+        "featured": false,
+        "price": 7200
       },
       {
         "id": "fth013",
@@ -155,7 +167,8 @@
         "image": "/images/faith/mission_house.jpg",
         "tags": ["faith", "service", "community"],
         "views": 98000,
-        "featured": true
+        "featured": true,
+        "price": 8000
       },
       {
         "id": "fth014",
@@ -167,7 +180,8 @@
         "image": "/images/faith/faith_fathers.jpg",
         "tags": ["faith", "family", "heritage"],
         "views": 115000,
-        "featured": true
+        "featured": true,
+        "price": 8400
       },
       {
         "id": "fth015",
@@ -179,7 +193,8 @@
         "image": "/images/faith/christmas_miracle.jpg",
         "tags": ["faith", "holiday", "community"],
         "views": 142000,
-        "featured": true
+        "featured": true,
+        "price": 8700
       },
       {
         "id": "fth016",
@@ -191,7 +206,8 @@
         "image": "/images/faith/faithful_steps.jpg",
         "tags": ["faith", "dance", "youth"],
         "views": 78000,
-        "featured": false
+        "featured": false,
+        "price": 7300
       },
       {
         "id": "fth017",
@@ -203,7 +219,8 @@
         "image": "/images/faith/prayer_circle.jpg",
         "tags": ["faith", "friendship", "prayer"],
         "views": 105000,
-        "featured": true
+        "featured": true,
+        "price": 8200
       },
       {
         "id": "fth018",
@@ -215,7 +232,8 @@
         "image": "/images/faith/faith_under_fire.jpg",
         "tags": ["faith", "disaster", "courage"],
         "views": 132000,
-        "featured": true
+        "featured": true,
+        "price": 8600
       },
       {
         "id": "fth019",
@@ -227,7 +245,8 @@
         "image": "/images/faith/gospel_truth.jpg",
         "tags": ["faith", "music", "redemption"],
         "views": 95000,
-        "featured": false
+        "featured": false,
+        "price": 7900
       },
       {
         "id": "fth020",
@@ -239,7 +258,8 @@
         "image": "/images/faith/faithful_hearts.jpg",
         "tags": ["faith", "romance", "marriage"],
         "views": 88000,
-        "featured": false
+        "featured": false,
+        "price": 7500
       }
     ]
   }

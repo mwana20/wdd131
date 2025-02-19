@@ -11,7 +11,8 @@
         "image": "/images/love/summer_paris.jpg",
         "tags": ["romance", "drama", "art"],
         "views": 125000,
-        "featured": true
+        "featured": true,
+        "price": 70000
       },
       {
         "id": "lov002",
@@ -23,7 +24,8 @@
         "image": "/images/love/coffee_shop.jpg",
         "tags": ["romance", "comedy", "slice-of-life"],
         "views": 98000,
-        "featured": false
+        "featured": false,
+        "price": 70000
       },
       {
         "id": "lov003",
@@ -35,7 +37,8 @@
         "image": "/images/love/dance_with_me.jpg",
         "tags": ["romance", "dance", "drama"],
         "views": 110000,
-        "featured": true
+        "featured": true,
+        "price": 70000
       },
       {
         "id": "lov004",
@@ -47,7 +50,8 @@
         "image": "/images/love/letters_tomorrow.jpg",
         "tags": ["romance", "fantasy", "drama"],
         "views": 135000,
-        "featured": true
+        "featured": true,
+        "price": 70000
       },
       {
         "id": "lov005",
@@ -59,7 +63,8 @@
         "image": "/images/love/seaside_promise.jpg",
         "tags": ["romance", "drama", "summer"],
         "views": 88000,
-        "featured": false
+        "featured": false,
+        "price": 70000
       },
       {
         "id": "lov006",
@@ -71,7 +76,8 @@
         "image": "/images/love/wedding_planner.jpg",
         "tags": ["romance", "comedy", "wedding"],
         "views": 115000,
-        "featured": true
+        "featured": true,
+        "price": 70000
       },
       {
         "id": "lov007",
@@ -83,7 +89,8 @@
         "image": "/images/love/cooking_love.jpg",
         "tags": ["romance", "cooking", "competition"],
         "views": 95000,
-        "featured": false
+        "featured": false,
+        "price": 70000
       },
       {
         "id": "lov008",
@@ -95,7 +102,8 @@
         "image": "/images/love/bookstore_romance.jpg",
         "tags": ["romance", "books", "comedy"],
         "views": 82000,
-        "featured": false
+        "featured": false,
+        "price": 70000
       },
       {
         "id": "lov009",
@@ -107,7 +115,8 @@
         "image": "/images/love/garden_love.jpg",
         "tags": ["romance", "drama", "nature"],
         "views": 105000,
-        "featured": true
+        "featured": true,
+        "price": 70000
       },
       {
         "id": "lov010",
@@ -119,7 +128,8 @@
         "image": "/images/love/winters_kiss.jpg",
         "tags": ["romance", "winter", "sports"],
         "views": 92000,
-        "featured": false
+        "featured": false,
+        "price": 70000
       },
       {
         "id": "lov011",
@@ -131,7 +141,8 @@
         "image": "images/love/music_heart.jpg",
         "tags": ["romance", "music", "drama"],
         "views": 142000,
-        "featured": true
+        "featured": true,
+        "price": 70000
       },
       {
         "id": "lov012",
@@ -143,7 +154,8 @@
         "image": "images/love/travel_companions.jpg",
         "tags": ["romance", "travel", "adventure"],
         "views": 98000,
-        "featured": false
+        "featured": false,
+        "price": 70000
       },
       {
         "id": "lov013",
@@ -153,7 +165,8 @@
         "duration": "2h 8m",
         "description": "A photographer finds unexpected love while capturing city life.",
         "image": "images/love/artists_muse.jpg",
-        "tags": ["romance", "art", "drama"]
+        "tags": ["romance", "art", "drama"],
+        "price": 70000
       }
     ]
-}          
+}

@@ -11,7 +11,8 @@
         "image": "/images/action/steel_warriors.jpg",
         "tags": ["action", "military", "thriller"],
         "views": 150000,
-        "featured": true
+        "featured": true,
+        "price": 10500
       },
       {
         "id": "act002",
@@ -23,7 +24,8 @@
         "image": "/images/action/metro_chase.jpg",
         "tags": ["action", "crime", "chase"],
         "views": 120000,
-        "featured": false
+        "featured": false,
+        "price": 9800
       },
       {
         "id": "act003",
@@ -35,7 +37,8 @@
         "image": "/images/action/sky_pirates.jpg",
         "tags": ["action", "adventure", "sci-fi"],
         "views": 135000,
-        "featured": true
+        "featured": true,
+        "price": 10800
       },
       {
         "id": "act004",
@@ -47,7 +50,8 @@
         "image": "/images/action/desert_storm.jpg",
         "tags": ["action", "survival", "post-apocalyptic"],
         "views": 110000,
-        "featured": true
+        "featured": true,
+        "price": 10200
       },
       {
         "id": "act005",
@@ -59,7 +63,8 @@
         "image": "/images/action/night_ops.jpg",
         "tags": ["action", "military", "espionage"],
         "views": 95000,
-        "featured": false
+        "featured": false,
+        "price": 11000
       },
       {
         "id": "act006",
@@ -71,7 +76,8 @@
         "image": "/images/action/street_kings.jpg",
         "tags": ["action", "racing", "crime"],
         "views": 125000,
-        "featured": true
+        "featured": true,
+        "price": 9500
       },
       {
         "id": "act007",
@@ -83,7 +89,8 @@
         "image": "/images/action/cyber_force.jpg",
         "tags": ["action", "cyber", "thriller"],
         "views": 105000,
-        "featured": false
+        "featured": false,
+        "price": 10700
       },
       {
         "id": "act008",
@@ -95,7 +102,8 @@
         "image": "/images/action/mountain_rescue.jpg",
         "tags": ["action", "adventure", "survival"],
         "views": 92000,
-        "featured": false
+        "featured": false,
+        "price": 9900
       },
       {
         "id": "act009",
@@ -107,7 +115,8 @@
         "image": "/images/action/dragons_gate.jpg",
         "tags": ["action", "martial-arts", "adventure"],
         "views": 160000,
-        "featured": true
+        "featured": true,
+        "price": 10400
       },
       {
         "id": "act010",
@@ -119,7 +128,8 @@
         "image": "/images/action/speed_demons.jpg",
         "tags": ["action", "racing", "thriller"],
         "views": 115000,
-        "featured": false
+        "featured": false,
+        "price": 10900
       },
       {
         "id": "act011",
@@ -131,7 +141,8 @@
         "image": "/images/action/oceans_fury.jpg",
         "tags": ["action", "adventure", "disaster"],
         "views": 130000,
-        "featured": true
+        "featured": true,
+        "price": 10500
       },
       {
         "id": "act012",
@@ -143,7 +154,8 @@
         "image": "/images/action/urban_warfare.jpg",
         "tags": ["action", "police", "thriller"],
         "views": 98000,
-        "featured": false
+        "featured": false,
+        "price": 9800
       },
       {
         "id": "act013",
@@ -155,7 +167,8 @@
         "image": "/images/action/red_zone.jpg",
         "tags": ["action", "war", "drama"],
         "views": 112000,
-        "featured": true
+        "featured": true,
+        "price": 10800
       },
       {
         "id": "act014",
@@ -167,7 +180,8 @@
         "image": "/images/action/arctic_warriors.jpg",
         "tags": ["action", "military", "survival"],
         "views": 88000,
-        "featured": false
+        "featured": false,
+        "price": 10200
       },
       {
         "id": "act015",
@@ -179,7 +193,8 @@
         "image": "/images/action/power_grid.jpg",
         "tags": ["action", "terrorism", "thriller"],
         "views": 95000,
-        "featured": false
+        "featured": false,
+        "price": 11000
       },
       {
         "id": "act016",
@@ -191,7 +206,8 @@
         "image": "/images/action/shadow_team.jpg",
         "tags": ["action", "military", "espionage"],
         "views": 142000,
-        "featured": true
+        "featured": true,
+        "price": 9500
       },
       {
         "id": "act017",
@@ -203,7 +219,8 @@
         "image": "/images/action/highway_heroes.jpg",
         "tags": ["action", "adventure", "drama"],
         "views": 82000,
-        "featured": false
+        "featured": false,
+        "price": 10700
       },
       {
         "id": "act018",
@@ -215,7 +232,8 @@
         "image": "/images/action/volcano_city.jpg",
         "tags": ["action", "disaster", "drama"],
         "views": 155000,
-        "featured": true
+        "featured": true,
+        "price": 9900
       },
       {
         "id": "act019",
@@ -227,7 +245,8 @@
         "image": "/images/action/robot_wars.jpg",
         "tags": ["action", "sci-fi", "war"],
         "views": 118000,
-        "featured": false
+        "featured": false,
+        "price": 10400
       },
       {
         "id": "act020",
@@ -239,7 +258,8 @@
         "image": "/images/action/last_stand.jpg",
         "tags": ["action", "crime", "western"],
         "views": 108000,
-        "featured": true
+        "featured": true,
+        "price": 10900
       }
     ]
   }

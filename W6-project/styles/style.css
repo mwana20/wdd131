@@ -28,6 +28,24 @@ header {
     padding: 0 2rem;
 }
 
+/* Hamburger Menu */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    right: 2rem;
+    top: 1.5rem;
+}
+
+.hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
@@ -286,6 +304,7 @@ footer {
     .header-container {
         flex-direction: column;
         text-align: center;
+        position: relative;
     }
     
     nav ul {
@@ -300,6 +319,25 @@ footer {
     
     .movie-grid {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: #1e3a8a;
+        z-index: 1;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger-menu {
+        display: flex;
     }
 }
 

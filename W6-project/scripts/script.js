@@ -10,7 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const currentPageFilename = window.location.pathname.split('/').pop();
 
     // Set the current category based on the page
-    if (currentPageFilename === 'thriller.html') {
+    if (currentPageFilename === 'index.html') {
+        currentCategory = 'home';
+    } else if (currentPageFilename === 'thriller.html') {
         currentCategory = 'thriller';
     } else if (currentPageFilename === 'action.html') {
         currentCategory = 'action';
@@ -90,6 +92,9 @@ function renderMovies() {
 function createMovieCard(movie) {
     const card = document.createElement('div');
     card.className = 'movie-card';
+    card.onclick = () => {
+        window.location.href = movie.link || '#';
+    };
 
     // Use placeholder image if missing
     const imageUrl = movie.image || 'images/placeholder.jpg';
@@ -102,10 +107,10 @@ function createMovieCard(movie) {
             <h3 class="movie-title">${movie.title}</h3>
             <p class="movie-year">${movie.year}</p>
             <p class="movie-description">${movie.description}</p>
-            <p class="movie-price">$${movie.price ? movie.price.toFixed(2) : 'N/A'}</p>
+            <p class="movie-price">UGX ${movie.price ? movie.price.toLocaleString() : 'N/A'}</p>
             <div class="action-buttons">
-                <button class="btn btn-primary">Add to Cart</button>
-                <button class="btn btn-secondary">Details</button>
+                <button class="btn btn-primary">Buy Movie</button>
+                <a href="${movie.link || '#'}" class="btn btn-secondary">View</a>
             </div>
         </div>
     `;

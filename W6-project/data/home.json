@@ -1,0 +1,75 @@
+{
+    "category": "Home Movies",
+    "items": [
+        {
+            "id": "home001",
+            "title": "Thrillers",
+            "year": 2021,
+            "rating": 4.5,
+            "duration": "2h 10m",
+            "description": "Explore our collection of thrilling movies.",
+            "image": "images/home/thrillers.jpg",
+            "link": "thriller.html",
+            "price": 15000,
+            "tags": ["home", "thriller"],
+            "views": 150000,
+            "featured": true
+        },
+        {
+            "id": "home002",
+            "title": "Action",
+            "year": 2020,
+            "rating": 4.2,
+            "duration": "1h 50m",
+            "description": "Discover our action-packed movie selection.",
+            "image": "images/home/action.jpg",
+            "link": "action.html",
+            "price": 12000,
+            "tags": ["home", "action"],
+            "views": 120000,
+            "featured": false
+        },
+        {
+            "id": "home003",
+            "title": "Love",
+            "year": 2019,
+            "rating": 4.7,
+            "duration": "2h 5m",
+            "description": "Find the best romantic movies here.",
+            "image": "images/home/love.jpg",
+            "link": "love.html",
+            "price": 18000,
+            "tags": ["home", "love"],
+            "views": 180000,
+            "featured": true
+        },
+        {
+            "id": "home004",
+            "title": "Faith",
+            "year": 2018,
+            "rating": 4.3,
+            "duration": "1h 45m",
+            "description": "Inspiring faith-based movies for everyone.",
+            "image": "images/home/faith.jpg",
+            "link": "faith.html",
+            "price": 11000,
+            "tags": ["home", "faith"],
+            "views": 110000,
+            "featured": false
+        },
+        {
+            "id": "home005",
+            "title": "Legendary",
+            "year": 2021,
+            "rating": 4.8,
+            "duration": "2h 20m",
+            "description": "Discover our collection of legendary movies.",
+            "image": "images/home/legendary.jpg",
+            "link": "legendary.html",
+            "price": 20000,
+            "tags": ["home", "legendary"],
+            "views": 200000,
+            "featured": true
+        }
+    ]
+}

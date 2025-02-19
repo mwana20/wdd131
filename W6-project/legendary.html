@@ -11,7 +11,7 @@
         <div class="header-container">
             <div class="logo">Rinah Library</div>
             <nav>
-                <ul>
+                <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="thriller.html">Thrillers</a></li>
                     <li><a href="action.html">Action</a></li>
@@ -20,6 +20,11 @@
                     <li><a href="legendary.html" class="active">Legendary</a></li>
                 </ul>
             </nav>
+            <div class="hamburger-menu" style="position: absolute; right: 0;">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
         </div>
     </header>
     
@@ -58,7 +63,7 @@
                     <li><a href="action.html">Action</a></li>
                     <li><a href="love.html">Love</a></li>
                     <li><a href="faith.html">Faith</a></li>
-                    <li><a href="legendary.html">Legendary</a></li>
+                    <li><a href="legendary.html" class="active">Legendary</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -77,5 +82,7 @@
     </footer>
     
     <script src="scripts/script.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/viewItem.js"></script>
 </body>
 </html>
