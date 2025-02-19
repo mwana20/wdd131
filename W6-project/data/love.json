@@ -128,7 +128,7 @@
         "rating": 4.8,
         "duration": "2h 15m",
         "description": "A classical pianist and a rock musician bridge their different worlds.",
-        "image": "/images/love/music_heart.jpg",
+        "image": "images/love/music_heart.jpg",
         "tags": ["romance", "music", "drama"],
         "views": 142000,
         "featured": true
@@ -140,7 +140,7 @@
         "rating": 4.4,
         "duration": "2h",
         "description": "Strangers become soulmates during an unexpected journey across Europe.",
-        "image": "/images/love/travel_companions.jpg",
+        "image": "images/love/travel_companions.jpg",
         "tags": ["romance", "travel", "adventure"],
         "views": 98000,
         "featured": false
@@ -152,7 +152,7 @@
         "rating": 4.6,
         "duration": "2h 8m",
         "description": "A photographer finds unexpected love while capturing city life.",
-        "image": "/images/love/artists_muse.jpg",
+        "image": "images/love/artists_muse.jpg",
         "tags": ["romance", "art", "drama"]
       }
     ]

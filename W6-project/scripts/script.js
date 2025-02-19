@@ -7,47 +7,41 @@ let allMovies = [];
 // Initialize the page
 document.addEventListener('DOMContentLoaded', () => {
     // Get the current page filename
-    const currentPage_filename = window.location.pathname.split('/').pop();
-    
+    const currentPageFilename = window.location.pathname.split('/').pop();
+
     // Set the current category based on the page
-    if (currentPage_filename === 'thriller.html') {
-        currentCategory = 'Thriller';
-    } else if (currentPage_filename === 'action.html') {
-        currentCategory = 'Action';
-    } else if (currentPage_filename === 'love.html') {
-        currentCategory = 'Love';
-    } else if (currentPage_filename === 'faith.html') {
-        currentCategory = 'Faith';
-    } else if (currentPage_filename === 'legendary.html') {
-        currentCategory = 'Legendary';
+    if (currentPageFilename === 'thriller.html') {
+        currentCategory = 'thriller';
+    } else if (currentPageFilename === 'action.html') {
+        currentCategory = 'action';
+    } else if (currentPageFilename === 'love.html') {
+        currentCategory = 'love';
+    } else if (currentPageFilename === 'faith.html') {
+        currentCategory = 'faith';
+    } else if (currentPageFilename === 'legendary.html') {
+        currentCategory = 'legendary';
     }
-    
-    // Initialize the page
+
+    // Load movies from JSON
     loadMovies();
 });
 
-// Fetch the appropriate JSON file based on current page
+// Function to load movies from JSON file
 async function loadMovies() {
     try {
-        let jsonFile = 'movies.json';
-        
-        if (currentCategory !== 'all') {
-            jsonFile = `${currentCategory.toLowerCase()}.json`;
-        }
-        
+        let jsonFile = `data/${currentCategory}.json`; // Use category name to determine JSON file
+
+        console.log(`Fetching JSON file: ${jsonFile}`);
+
         const response = await fetch(jsonFile);
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
-        
+
         const data = await response.json();
-        allMovies = data.movies;
-        
-        // Filter movies if we're on a category page
-        if (currentCategory !== 'all') {
-            allMovies = allMovies.filter(movie => movie.category === currentCategory);
-        }
-        
+        console.log('Fetched data:', data);
+
+        allMovies = data.items || [];
         renderMovies();
         setupPagination();
     } catch (error) {
@@ -64,29 +58,29 @@ async function loadMovies() {
 // Render movies on the page
 function renderMovies() {
     const container = document.getElementById('movie-container');
-    
-    // Calculate start and end indices for the current page
+
+    // Calculate start and end indices for pagination
     const startIndex = (currentPage - 1) * moviesPerPage;
     const endIndex = Math.min(startIndex + moviesPerPage, allMovies.length);
-    
+
     // Get the current page of movies
     const currentMovies = allMovies.slice(startIndex, endIndex);
-    
+
     if (currentMovies.length === 0) {
         container.innerHTML = '<p>No movies found in this category.</p>';
         return;
     }
-    
+
     // Create the movie grid
     const movieGrid = document.createElement('div');
     movieGrid.className = 'movie-grid';
-    
+
     // Add each movie card
     currentMovies.forEach(movie => {
         const movieCard = createMovieCard(movie);
         movieGrid.appendChild(movieCard);
     });
-    
+
     // Replace the container content
     container.innerHTML = '';
     container.appendChild(movieGrid);
@@ -96,23 +90,26 @@ function renderMovies() {
 function createMovieCard(movie) {
     const card = document.createElement('div');
     card.className = 'movie-card';
-    
+
+    // Use placeholder image if missing
+    const imageUrl = movie.image || 'images/placeholder.jpg';
+
     card.innerHTML = `
         <div class="movie-poster">
-            <img src="${movie.image}" alt="${movie.title} Poster">
+            <img src="${imageUrl}" alt="${movie.title} Poster" onerror="this.src='images/placeholder.jpg'">
         </div>
         <div class="movie-info">
             <h3 class="movie-title">${movie.title}</h3>
-            <p class="movie-year">${movie.year} • ${movie.category}</p>
+            <p class="movie-year">${movie.year}</p>
             <p class="movie-description">${movie.description}</p>
-            <p class="movie-price">$${movie.price.toFixed(2)}</p>
+            <p class="movie-price">$${movie.price ? movie.price.toFixed(2) : 'N/A'}</p>
             <div class="action-buttons">
                 <button class="btn btn-primary">Add to Cart</button>
                 <button class="btn btn-secondary">Details</button>
             </div>
         </div>
     `;
-    
+
     return card;
 }
 
@@ -120,14 +117,14 @@ function createMovieCard(movie) {
 function setupPagination() {
     const paginationContainer = document.getElementById('pagination');
     const totalPages = Math.ceil(allMovies.length / moviesPerPage);
-    
+
     if (totalPages <= 1) {
         paginationContainer.innerHTML = '';
         return;
     }
-    
+
     let paginationHTML = '';
-    
+
     // Previous button
     paginationHTML += `
         <button onclick="changePage(${Math.max(1, currentPage - 1)})" 
@@ -135,7 +132,7 @@ function setupPagination() {
             &laquo; Previous
         </button>
     `;
-    
+
     // Page numbers
     for (let i = 1; i <= totalPages; i++) {
         paginationHTML += `
@@ -145,7 +142,7 @@ function setupPagination() {
             </button>
         `;
     }
-    
+
     // Next button
     paginationHTML += `
         <button onclick="changePage(${Math.min(totalPages, currentPage + 1)})" 
@@ -153,7 +150,7 @@ function setupPagination() {
             Next &raquo;
         </button>
     `;
-    
+
     paginationContainer.innerHTML = paginationHTML;
 }
 
@@ -162,7 +159,7 @@ function changePage(pageNumber) {
     currentPage = pageNumber;
     renderMovies();
     setupPagination();
-    
+
     // Scroll to the top of the movie container
     document.getElementById('movie-container').scrollIntoView({ behavior: 'smooth' });
 }
