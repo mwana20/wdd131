@@ -1,0 +1,159 @@
+{
+    "category": "Love Movies",
+    "items": [
+      {
+        "id": "lov001",
+        "title": "Summer in Paris",
+        "year": 2024,
+        "rating": 4.6,
+        "duration": "1h 55m",
+        "description": "Two artists find love while pursuing their dreams in the city of lights.",
+        "image": "/images/love/summer_paris.jpg",
+        "tags": ["romance", "drama", "art"],
+        "views": 125000,
+        "featured": true
+      },
+      {
+        "id": "lov002",
+        "title": "Coffee Shop Love",
+        "year": 2023,
+        "rating": 4.3,
+        "duration": "1h 45m",
+        "description": "A barista and a writer discover love over daily coffee conversations.",
+        "image": "/images/love/coffee_shop.jpg",
+        "tags": ["romance", "comedy", "slice-of-life"],
+        "views": 98000,
+        "featured": false
+      },
+      {
+        "id": "lov003",
+        "title": "Dance With Me",
+        "year": 2024,
+        "rating": 4.4,
+        "duration": "2h",
+        "description": "A professional dancer helps a businessman find rhythm in life and love.",
+        "image": "/images/love/dance_with_me.jpg",
+        "tags": ["romance", "dance", "drama"],
+        "views": 110000,
+        "featured": true
+      },
+      {
+        "id": "lov004",
+        "title": "Letters to Tomorrow",
+        "year": 2023,
+        "rating": 4.7,
+        "duration": "2h 5m",
+        "description": "Time-traveling love letters connect two souls across decades.",
+        "image": "/images/love/letters_tomorrow.jpg",
+        "tags": ["romance", "fantasy", "drama"],
+        "views": 135000,
+        "featured": true
+      },
+      {
+        "id": "lov005",
+        "title": "Seaside Promise",
+        "year": 2024,
+        "rating": 4.2,
+        "duration": "1h 50m",
+        "description": "A summer romance leads to a lifetime of unexpected connections.",
+        "image": "/images/love/seaside_promise.jpg",
+        "tags": ["romance", "drama", "summer"],
+        "views": 88000,
+        "featured": false
+      },
+      {
+        "id": "lov006",
+        "title": "The Wedding Planner's Heart",
+        "year": 2023,
+        "rating": 4.5,
+        "duration": "1h 58m",
+        "description": "A wedding planner falls for the groom's best friend.",
+        "image": "/images/love/wedding_planner.jpg",
+        "tags": ["romance", "comedy", "wedding"],
+        "views": 115000,
+        "featured": true
+      },
+      {
+        "id": "lov007",
+        "title": "Cooking Up Love",
+        "year": 2024,
+        "rating": 4.4,
+        "duration": "2h",
+        "description": "Rival chefs find romance during a cooking competition.",
+        "image": "/images/love/cooking_love.jpg",
+        "tags": ["romance", "cooking", "competition"],
+        "views": 95000,
+        "featured": false
+      },
+      {
+        "id": "lov008",
+        "title": "Bookstore Romance",
+        "year": 2023,
+        "rating": 4.3,
+        "duration": "1h 52m",
+        "description": "An online author falls for a local bookstore owner.",
+        "image": "/images/love/bookstore_romance.jpg",
+        "tags": ["romance", "books", "comedy"],
+        "views": 82000,
+        "featured": false
+      },
+      {
+        "id": "lov009",
+        "title": "Garden of Love",
+        "year": 2024,
+        "rating": 4.6,
+        "duration": "2h 10m",
+        "description": "A landscape architect helps restore both a garden and its owner's heart.",
+        "image": "/images/love/garden_love.jpg",
+        "tags": ["romance", "drama", "nature"],
+        "views": 105000,
+        "featured": true
+      },
+      {
+        "id": "lov010",
+        "title": "Winter's Kiss",
+        "year": 2023,
+        "rating": 4.5,
+        "duration": "1h 55m",
+        "description": "A ski instructor and a city lawyer find love in a mountain resort.",
+        "image": "/images/love/winters_kiss.jpg",
+        "tags": ["romance", "winter", "sports"],
+        "views": 92000,
+        "featured": false
+      },
+      {
+        "id": "lov011",
+        "title": "Music of the Heart",
+        "year": 2024,
+        "rating": 4.8,
+        "duration": "2h 15m",
+        "description": "A classical pianist and a rock musician bridge their different worlds.",
+        "image": "/images/love/music_heart.jpg",
+        "tags": ["romance", "music", "drama"],
+        "views": 142000,
+        "featured": true
+      },
+      {
+        "id": "lov012",
+        "title": "Travel Companions",
+        "year": 2023,
+        "rating": 4.4,
+        "duration": "2h",
+        "description": "Strangers become soulmates during an unexpected journey across Europe.",
+        "image": "/images/love/travel_companions.jpg",
+        "tags": ["romance", "travel", "adventure"],
+        "views": 98000,
+        "featured": false
+      },
+      {
+        "id": "lov013",
+        "title": "The Artist's Muse",
+        "year": 2024,
+        "rating": 4.6,
+        "duration": "2h 8m",
+        "description": "A photographer finds unexpected love while capturing city life.",
+        "image": "/images/love/artists_muse.jpg",
+        "tags": ["romance", "art", "drama"]
+      }
+    ]
+}          
