@@ -241,147 +241,147 @@ const thrillerMoviesData = [
         title: "Silent Whisper",
         releaseDate: "February 12, 2023",
         price: "$15.99",
-        imageUrl: "/api/placeholder/280/400?text=Silent+Whisper",
+        imageUrl: "images/silent.jpg",
         view: "A suspenseful thriller that will keep you on the edge of your seat."
     },
     {
         title: "The Last Moment",
         releaseDate: "July 23, 2022",
         price: "$14.99",
-        imageUrl: "/api/placeholder/280/400?text=The+Last+Moment",
+        imageUrl: "images/moment.jpg",
         view: "A gripping tale of suspense and mystery."
     },
     {
         title: "Dark Corridor",
         releaseDate: "October 31, 2023",
         price: "$16.99",
-        imageUrl: "/api/placeholder/280/400?text=Dark+Corridor",
+        imageUrl: "images/dark.jpg",
         view: "A dark and thrilling journey through a mysterious corridor."
     },
     {
         title: "Vanishing Point",
         releaseDate: "March 17, 2024",
         price: "$17.99",
-        imageUrl: "/api/placeholder/280/400?text=Vanishing+Point",
+        imageUrl: "images/van.jpg",
         view: "A story of vanishing point."
     },
     {
         title: "Mind Games",
         releaseDate: "August 5, 2021",
         price: "$13.99",
-        imageUrl: "/api/placeholder/280/400?text=Mind+Games",
+        imageUrl: "images/mind.jpg",
         view: "A tale of mind games."
     },
     {
-        title: "The Shadow Knows",
+        title: "The Shadow Hand",
         releaseDate: "December 10, 2022",
         price: "$14.99",
-        imageUrl: "/api/placeholder/280/400?text=The+Shadow+Knows",
+        imageUrl: "images/shadow.jpg",
         view: "A story of the shadow knows."
     },
     {
         title: "Deadly Secrets",
         releaseDate: "April 28, 2023",
         price: "$15.99",
-        imageUrl: "/api/placeholder/280/400?text=Deadly+Secrets",
+        imageUrl: "images/sec.jpg",
         view: "A tale of deadly secrets."
     },
     {
         title: "Midnight Caller",
         releaseDate: "September 9, 2021",
         price: "$13.99",
-        imageUrl: "/api/placeholder/280/400?text=Midnight+Caller",
+        imageUrl: "images/mid.jpg",
         view: "A story of the midnight caller."
     },
     {
         title: "The Perfect Alibi",
         releaseDate: "November 15, 2022",
         price: "$14.99",
-        imageUrl: "/api/placeholder/280/400?text=The+Perfect+Alibi",
+        imageUrl: "images/ali.jpg",
         view: "A tale of the perfect alibi."
     },
     {
         title: "Cold Case",
         releaseDate: "January 20, 2024",
         price: "$16.99",
-        imageUrl: "/api/placeholder/280/400?text=Cold+Case",
+        imageUrl: "images/cold.jpg",
         view: "A story of a cold case."
     },
     {
         title: "The Informant",
         releaseDate: "June 14, 2023",
         price: "$15.99",
-        imageUrl: "/api/placeholder/280/400?text=The+Informant",
+        imageUrl: "images/info.jpg",
         view: "A tale of the informant."
     },
     {
         title: "Paranoia",
         releaseDate: "May 27, 2021",
         price: "$12.99",
-        imageUrl: "/api/placeholder/280/400?text=Paranoia",
+        imageUrl: "images/para.jpg",
         view: "A story of paranoia."
     },
     {
         title: "Broken Trust",
         releaseDate: "March 8, 2022",
         price: "$14.99",
-        imageUrl: "/api/placeholder/280/400?text=Broken+Trust",
+        imageUrl: "images/trust.jpg",
         view: "A tale of broken trust."
     },
     {
         title: "The Final Hour",
         releaseDate: "August 19, 2023",
         price: "$15.99",
-        imageUrl: "/api/placeholder/280/400?text=The+Final+Hour",
+        imageUrl: "images/hour.jpg",
         view: "A story of the final hour."
     },
     {
         title: "Silent Witness",
         releaseDate: "February 2, 2024",
         price: "$16.99",
-        imageUrl: "/api/placeholder/280/400?text=Silent+Witness",
+        imageUrl: "images/wit.jpg",
         view: "A tale of the silent witness."
     },
     {
         title: "Ticking Clock",
         releaseDate: "October 12, 2021",
         price: "$13.99",
-        imageUrl: "/api/placeholder/280/400?text=Ticking+Clock",
+        imageUrl: "images/clock.jpg",
         view: "A story of the ticking clock."
     },
     {
         title: "The Deception",
         releaseDate: "July 5, 2022",
         price: "$14.99",
-        imageUrl: "/api/placeholder/280/400?text=The+Deception",
+        imageUrl: "images/dec.avif",
         view: "A tale of the deception."
     },
     {
         title: "Buried Truth",
         releaseDate: "April 11, 2023",
         price: "$15.99",
-        imageUrl: "/api/placeholder/280/400?text=Buried+Truth",
+        imageUrl: "images/truth.jpg",
         view: "A story of the buried truth."
     },
     {
         title: "The Watcher",
         releaseDate: "December 5, 2022",
         price: "$14.99",
-        imageUrl: "/api/placeholder/280/400?text=The+Watcher",
+        imageUrl: "images/watcher.jpg",
         view: "A tale of the watcher."
     },
     {
         title: "Lethal Evidence",
         releaseDate: "September 28, 2023",
         price: "$15.99",
-        imageUrl: "/api/placeholder/280/400?text=Lethal+Evidence",
+        imageUrl: "images/evi.jpg",
         view: "A story of lethal evidence."
     },
     {
         title: "Unknown Caller",
         releaseDate: "January 15, 2024",
         price: "$16.99",
-        imageUrl: "/api/placeholder/280/400?text=Unknown+Caller",
+        imageUrl: "images/call.jpg",
         view: "A tale of the unknown caller."
     }
 ];

@@ -117,7 +117,7 @@ h2 {
 
 .btn {
     display: inline-block;
-    background-color: #007bff; /* Change background color to blue */
+    background-color: #003366; /* Change background color to dark blue */
     color: #fff;
     padding: 0.5rem 1rem;
     border-radius: 4px;
@@ -127,7 +127,7 @@ h2 {
 }
 
 .btn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #002244; /* Darker blue on hover */
     color: #fff;
 }
 
@@ -444,7 +444,7 @@ movie-buttons {
 
 .btn {
     display: inline-block;
-    background-color: #007bff; /* Change background color to blue */
+    background-color: #003366; /* Change background color to dark blue */
     color: #fff;
     padding: 0.5rem 1rem;
     border-radius: 4px;
@@ -454,6 +454,6 @@ movie-buttons {
 }
 
 .btn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #002244; /* Darker blue on hover */
     color: #fff;
 }
