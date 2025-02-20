@@ -6,20 +6,36 @@ function createMovieCard(movie) {
     const movieImage = document.createElement('div');
     movieImage.className = 'movie-image';
     movieImage.style.backgroundImage = `url(${movie.imageUrl})`;
+    movieImage.setAttribute('loading', 'lazy'); // Add lazy loading
     
     const movieInfo = document.createElement('div');
     movieInfo.className = 'movie-info';
+    movieInfo.style.color = 'black'; // Set text color to black
     
     const movieTitle = document.createElement('h3');
     movieTitle.textContent = movie.title;
     
+    // Function to determine reliable text color based on background color
+    function getReliableTextColor(bgColor) {
+        const color = bgColor.replace(/^rgba?\(|\s+|\)$/g, '').split(',');
+        const brightness = Math.round(((parseInt(color[0]) * 299) +
+                                      (parseInt(color[1]) * 587) +
+                                      (parseInt(color[2]) * 114)) / 1000);
+        return (brightness > 125) ? 'black' : 'white';
+    }
+    
+    const bgColor = window.getComputedStyle(movieImage).backgroundColor;
+    movieTitle.style.color = getReliableTextColor(bgColor); // Set title color based on background
+    
     const movieMetadata = document.createElement('div');
     movieMetadata.className = 'movie-metadata';
     movieMetadata.textContent = `Released: ${movie.releaseDate}`;
+    movieMetadata.style.color = 'black'; // Ensure release date is visible and black
     
     const moviePrice = document.createElement('div');
     moviePrice.className = 'movie-price';
     moviePrice.textContent = movie.price;
+    moviePrice.style.color = 'black'; // Ensure price is visible and black
     
     const movieButtons = document.createElement('div');
     movieButtons.className = 'movie-buttons';
