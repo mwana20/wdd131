@@ -91,147 +91,147 @@ const faithMoviesData = [
         title: "The Miracle Maker",
         releaseDate: "March 15, 2021",
         price: "$12.99",
-        imageUrl: "/api/placeholder/280/400?text=The+Miracle+Maker",
+        imageUrl: "images/maker.jpg",
         view: "A heartwarming story of faith and miracles."
     },
     {
         title: "Journey of Faith",
         releaseDate: "June 8, 2022",
         price: "$14.99",
-        imageUrl: "/api/placeholder/280/400?text=Journey+of+Faith",
+        imageUrl: "images/journey.jpg",
         view: "An inspiring journey of faith and perseverance."
     },
     {
         title: "Divine Intervention",
         releaseDate: "September 22, 2023",
         price: "$15.99",
-        imageUrl: "/api/placeholder/280/400?text=Divine+Intervention",
+        imageUrl: "images/divi.jpg",
         view: "A miraculous story of divine intervention."
     },
     {
         title: "Steadfast Hope",
         releaseDate: "January 12, 2024",
         price: "$16.99",
-        imageUrl: "/api/placeholder/280/400?text=Steadfast+Hope",
+        imageUrl: "images/stead.jpg",
         view: "A story of unwavering hope and faith."
     },
     {
         title: "Redeeming Grace",
         releaseDate: "May 30, 2022",
         price: "$13.99",
-        imageUrl: "/api/placeholder/280/400?text=Redeeming+Grace",
+        imageUrl: "images/rede.jpg",
         view: "A tale of grace and redemption."
     },
     {
         title: "Faithful Journey",
         releaseDate: "November 8, 2021",
         price: "$12.99",
-        imageUrl: "/api/placeholder/280/400?text=Faithful+Journey",
+        imageUrl: "images/ful.jpg",
         view: "A journey of faith and trust."
     },
     {
         title: "Beyond Belief",
         releaseDate: "March 25, 2024",
         price: "$17.99",
-        imageUrl: "/api/placeholder/280/400?text=Beyond+Belief",
+        imageUrl: "images/bey.png",
         view: "A story that goes beyond belief."
     },
     {
         title: "Heaven's Light",
         releaseDate: "July 14, 2023",
         price: "$15.99",
-        imageUrl: "/api/placeholder/280/400?text=Heaven's+Light",
+        imageUrl: "images/heaven.jpg",
         view: "A tale of divine light and guidance."
     },
     {
         title: "Walking by Faith",
         releaseDate: "October 5, 2022",
         price: "$14.99",
-        imageUrl: "/api/placeholder/280/400?text=Walking+by+Faith",
+        imageUrl: "images/walk.jpg",
         view: "A journey of walking by faith."
     },
     {
         title: "Divine Purpose",
         releaseDate: "February 18, 2023",
         price: "$15.99",
-        imageUrl: "/api/placeholder/280/400?text=Divine+Purpose",
+        imageUrl: "images/pur.jpg",
         view: "A story of finding divine purpose."
     },
     {
         title: "Answered Prayers",
         releaseDate: "August 9, 2021",
         price: "$13.99",
-        imageUrl: "/api/placeholder/280/400?text=Answered+Prayers",
+        imageUrl: "images/prayers.jpg",
         view: "A tale of answered prayers."
     },
     {
         title: "The Chosen Path",
         releaseDate: "December 12, 2022",
         price: "$14.99",
-        imageUrl: "/api/placeholder/280/400?text=The+Chosen+Path",
+        imageUrl: "images/path.jpg",
         view: "A journey on the chosen path."
     },
     {
         title: "Faith Unbroken",
         releaseDate: "April 16, 2024",
         price: "$16.99",
-        imageUrl: "/api/placeholder/280/400?text=Faith+Unbroken",
+        imageUrl: "images/unbroken.jpg",
         view: "A story of unbroken faith."
     },
     {
         title: "Guided Light",
         releaseDate: "September 3, 2021",
         price: "$12.99",
-        imageUrl: "/api/placeholder/280/400?text=Guided+Light",
+        imageUrl: "images/li.jpg",
         view: "A tale of being guided by light."
     },
     {
         title: "Trust in Him",
         releaseDate: "November 27, 2023",
         price: "$15.99",
-        imageUrl: "/api/placeholder/280/400?text=Trust+in+Him",
+        imageUrl: "images/him.jpg",
         view: "A story of trust in Him."
     },
     {
         title: "The Shepherd's Way",
         releaseDate: "January 30, 2022",
         price: "$14.99",
-        imageUrl: "/api/placeholder/280/400?text=The+Shepherd's+Way",
+        imageUrl: "images/she.jpg",
         view: "A journey on the shepherd's way."
     },
     {
         title: "The Prayer Circle",
         releaseDate: "June 5, 2023",
         price: "$15.99",
-        imageUrl: "/api/placeholder/280/400?text=The+Prayer+Circle",
+        imageUrl: "images/pra.jpg",
         view: "A story of the prayer circle."
     },
     {
         title: "Finding Grace",
         releaseDate: "March 21, 2024",
         price: "$16.99",
-        imageUrl: "/api/placeholder/280/400?text=Finding+Grace",
+        imageUrl: "images/gra.jpg",
         view: "A journey of finding grace."
     },
     {
         title: "His Loving Hands",
         releaseDate: "August 19, 2022",
         price: "$13.99",
-        imageUrl: "/api/placeholder/280/400?text=His+Loving+Hands",
+        imageUrl: "images/lo.jpg",
         view: "A tale of His loving hands."
     },
     {
         title: "Miracle of Faith",
         releaseDate: "October 15, 2021",
         price: "$12.99",
-        imageUrl: "/api/placeholder/280/400?text=Miracle+of+Faith",
+        imageUrl: "images/of.jpg",
         view: "A story of the miracle of faith."
     },
     {
         title: "Blessed Journey",
         releaseDate: "May 11, 2023",
         price: "$15.99",
-        imageUrl: "/api/placeholder/280/400?text=Blessed+Journey",
+        imageUrl: "images/jo.jpg",
         view: "A blessed journey of faith."
     }
 ];
